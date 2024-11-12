@@ -28,7 +28,7 @@ Jessica Sula', '2016', '117', '7.3', '157606', '138.12', '62.0']]
         for line in content[1:]:
             data = line.strip().split(';')
             movie_year = int(data[6])
-            if movie_year >= year: 
+            if movie_year >= year:
                 movies.append(data)
     return movies
 
