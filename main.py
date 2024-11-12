@@ -1,3 +1,7 @@
+"""
+Module provides functions to manipulate
+movie statistics
+"""
 def read_file(pathname: str, year: int=0) -> list:
     """
     Reads file and returns all items with specified year in file as a list
